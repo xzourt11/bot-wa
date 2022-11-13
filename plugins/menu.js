@@ -57,8 +57,9 @@ const defaultMenu = {
 ┏━ꕥ〔 *llı INFO ıll* 〕ꕥ━⬣
 ┃✾ *Bot Name:* %me
 ┃✾ *Mode:* Public
-┃✾ *Platform:* Linux
-┃✾ *Type:* Node.Js
+┃✾ *Platform:* BlackArch Linux
+┃✾ *Script:* Node.Js
+┃✾ *VGA:* RTX 3060 Ti Nvidia
 ┃✾ *Baileys:* Multi Device
 ┃✾ *Uptime:* %muptime
 ┃✾ *Database:* %rtotalreg dari %totalreg
@@ -172,9 +173,9 @@ let handler = async (m, { conn, usedPrefix, __dirname }) => {
     const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => './src/avatar_contact.png')
     const menu = './media/menu.jpg'
     const valor = './thumbnail.jpg'
-    let url = 'https://i.ibb.co/jfZVKmC/babi2.jpg'
+    let url = ''
     let flaa = pickRandom(global.flaaaaa)
-    const ultah = new Date('November 4 2022 00:00:01')
+    const ultah = new Date('May 19 2023 00:00:01')
     const sekarat = new Date().getTime() 
     const Kurang = ultah - sekarat
     const ohari = Math.floor( Kurang / (1000 * 60 * 60 * 24));
@@ -184,20 +185,68 @@ let handler = async (m, { conn, usedPrefix, __dirname }) => {
     conn.sendButton(m.chat,
 `${wish()} ${name}
 `, text.trim(), `${flaa}All Menu`, [
-      [`ꜱᴇᴡᴀʙᴏᴛ`, `${usedPrefix}sewa`],
-      [`۪۪ᴀᴜᴛʜᴏʀ ʙᴏᴛ`, `${usedPrefix}owner`]
+      [`ꜱᴇᴡᴀ ʙᴏᴛ`, `${usedPrefix}sewa`],
+      [`۪۪ᴀᴜᴛʜᴏʀ ʙᴏᴛ`, `${usedPrefix}owner`],
+	  [`۪۪ᴋᴏᴅᴇ ʀᴇꜰꜰᴇʀᴀʟ`, `${usedPrefix}ref`]
     ], m, {
 contextInfo: { externalAdReply :{ showAdAttribution: true,
-                        sourceUrl: 'https://youtu.be/pwLZpdfO8AU',
+                        sourceUrl: 'https://instagram.com/_defnilay',
                         mediaType: 2,
-                        description: `⚘ ᴄʀᴇᴀᴛᴇ ᴹᴿ᭄ King Of Bear ×፝֟͜×`,
+                        description: `⚘ ᴄʀᴇᴀᴛᴇ ʙʏ 𝐝𝐞𝐟𝐧𝐢𝐥𝐚𝐲`,
                         title: `💌 Ultah Owner : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-                        body: `⚘ ᴄʀᴇᴀᴛᴇ by ᴹᴿ᭄ King Of Bear ×፝֟͜×`,          previewType: 0,
-                        thumbnail: await (await fetch(giflogo2)).buffer(),
-                        mediaUrl: 'https://youtu.be/pwLZpdfO8AU'
+                        body: `⚘ ᴄʀᴇᴀᴛᴇ by 𝐝𝐞𝐟𝐧𝐢𝐥𝐚𝐲`,          previewType: 0,
+                        thumbnail: await (await fetch('https://telegra.ph/file/7985de03b07f1932951fe.jpg')).buffer(),
+                        mediaUrl: 'https://instagram.com/_defnilay'
                         
                       }}
 })
+const sections = [
+					{
+						title: `━ ━ ━ ━ 『 MAIN 』 ━ ━ ━ ━`,
+						rows: [
+							{title: '⚡ PREMIUM', rowId: usedPrefix + 'sewa', description: 'Premium, Sewabot, Jadibot, Jasa Run Bot'},
+							{title: '🎫 OWNER', rowId: usedPrefix + 'owner', description: 'Chat P tidak dibalas'},
+							{title: '📁 Source Code', rowId: usedPrefix + 'sc', description: 'Original Base'}
+						]
+					}, {
+						title: `━ ━ ━ ━ 『 SUB MENU 』 ━ ━ ━ ━`,
+						rows: [
+							{title: '🎪 ALL MENU', rowId: usedPrefix + 'menuall', description: '● Menampilkan Semua Menu'},
+							{title: '🎎 ANIME', rowId: usedPrefix + 'menuanime', description: '◉ Cari Manga, Anime, Random Pic'},
+							{title: '⌛ DOWNLOAD', rowId: usedPrefix + 'menudownload',  description: '◎ Youtube, Facebook, Tiktok, Dll...'},
+							{title: '🎮 GAMES & FUN', rowId: usedPrefix + 'menufun', description: '⊛ RPG, Kuis, Anonymous'},
+							{title: '🐳 GENSHIN IMPACT', rowId: usedPrefix + 'menugenshin', description: '⊜ genshin.dev API'},
+							{title: '🔞 NSFW', rowId: usedPrefix + 'menunsfw', description: '◓ Fitur Afakah Ini ?'},
+							{title: '👥 GROUP', rowId: usedPrefix + 'menugroup', description: '◒ Command Dalam Grup'},
+							{title: '🗺 EDITOR', rowId: usedPrefix + 'menueditor',  description: 'ⓞ Kreasi Foto'},
+							{title: '💫 EPHOTO 360', rowId: usedPrefix + 'menuephoto', description: '⦿ Edit Foto Kamu'},
+							{title: '👼🏻 PHOTO OXY', rowId: usedPrefix + 'menuoxy', description: '◐ Edit Photos by Oxy'},
+							{title: '🎨 TEXT PRO ME', rowId: usedPrefix + 'menutextpro', description: '◑ Kreasi Teks Efek'},
+						]
+					}, {
+						title: `━ ━ ━ ━ 『 MISC 』 ━ ━ ━ ━`,
+						rows: [
+							{title: '🏓 PING', rowId: usedPrefix + 'ping'},
+							{title: '🚄 SPEEDTEST', rowId: usedPrefix + 'speedtest'},
+							{title: '🎎 DONASI', rowId: usedPrefix + 'donasi'},
+						]
+					}
+				]
+				const listMessage = {
+					text: text.replaceAll('#','```').trim(),
+					footer: packname + ' - ' + author,
+					//title: `⎔───「 ${packname} 」───⎔`,
+					buttonText: `SUB MENU 🎫`,
+					sections
+				}
+				await conn.sendMessage(m.chat, listMessage, {quoted: ftrol})
+			}
+		}
+	} catch (e) {
+		conn.reply(m.chat, 'Maaf, menu sedang error', m)
+		throw e
+	}
+}
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e

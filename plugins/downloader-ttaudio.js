@@ -33,7 +33,7 @@ const time = moment.tz('Asia/Jakarta').format('HH')
     }
   })
   let bear = '9b95802c6f20'
-  let bearr = 'danzz'
+  let bearr = 'hTtP44gE'
   let url = await fetch(`https://saipulanuar.ga/api/download/tiktok?apikey=${bearr}&url=${args[0]}`)
   let json = await url.json()
     if (url.status !== 200) throw await url.text()
@@ -54,9 +54,9 @@ const time = moment.tz('Asia/Jakarta').format('HH')
                         mediaType: 2,
                         description: 'anu',
                         title: `💌 Ultah Owner : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-                        body: `Subscribe YT My Bestie`,                                       previewType: 0,
-                        thumbnail: await (await fetch(`https://i.ibb.co/jfZVKmC/babi2.jpg`)).buffer(),
-                        sourceUrl: 'https://youtu.be/pwLZpdfO8AU'
+                        body: `Follow My Instagram Brow!`,                                       previewType: 0,
+                        thumbnail: await (await fetch(`https://i.ibb.co/tZt0T5r/b8a2c0ef41b08463d93469c4f5501d52.jpg`)).buffer(),
+                        sourceUrl: 'https://instagram.com/_defnilay'
             }
         }
     })

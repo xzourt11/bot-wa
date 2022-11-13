@@ -8,7 +8,7 @@ const dir = [
   'https://tinyurl.com/ygpxka9q'
 ];
 let handler = async (m, { conn }) => {
-conn.sendFile(m.chat, dir[Math.floor(Math.random() * dir.length)], 'dadu.webp', '', m)
+conn.sendFile(m.chat, dir[Math.floor(Math.random() * dir.length)], 'dadu.jpg', '', m)
 }
 handler.help = ['dadu']
 handler.tags = ['game']

@@ -20,7 +20,7 @@ https://instagram.com/${username.replace(/^@/, '')}
 `.trim())
 }
 
-handler.help = ['igstalk'].map(v => v + ' <username>')
+handler.help = ['downloadig'].map(v => v + ' <username>')
 handler.tags = ['downloader']
 
 handler.command = /^(igstalk)$/i

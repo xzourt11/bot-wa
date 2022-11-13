@@ -29,5 +29,5 @@ console.log(e)
 }}
 handler.help = ['play.1' , 'play.2'].map(v => v + ' <texto>')
 handler.tags = ['downloader']
-handler.command = ['play.1', 'play.2']
+handler.command = /^play3?$/i
 export default handler

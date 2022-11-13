@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 import fs from 'fs';
 import crypto from 'crypto'
 let handler = async (m, { conn, text, usedPrefix }) => {
-    const ultah = new Date('November 4 2022 23:59:59')
+    const ultah = new Date('May 19 2023 00:00:01')
     const sekarat = new Date().getTime() 
     const Kurang = ultah - sekarat
     const ohari = Math.floor( Kurang / (1000 * 60 * 60 * 24));
@@ -23,16 +23,16 @@ ${botdate}
 `
         let img1 = fs.readFileSync('./thumbnail.jpg');
         let img2 = fs.readFileSync('./media/bawah.png');
-    return conn.sendButton(m.chat, hiasan, sewa, await (await fetch(`https://telegra.ph/file/6ab4daac226292a112540.jpg`)).buffer(), [["Menu", usedPrefix + "menu"], ["Sewa Bot", usedPrefix + "sewa"]], m, {
+    return conn.sendButton(m.chat, hiasan, sewa, await (await fetch(`https://telegra.ph/file/7985de03b07f1932951fe.jpg`)).buffer(), [["Menu", usedPrefix + "menu"], ["Sewa Bot", usedPrefix + "sewa"]], m, {
         contextInfo: {
             externalAdReply: {
                 mediaUrl: '',
                         mediaType: 2,
                         description: 'anu',
                         title: `💌 Ultah Owner : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-                        body: `Subscribe YT My Bestie`,                                       previewType: 0,
-                        thumbnail: await (await fetch(`https://i.ibb.co/jfZVKmC/babi2.jpg`)).buffer(),
-                        sourceUrl: 'https://youtu.be/pwLZpdfO8AU'
+                        body: `Follow My Instagram Guys!!`,                                       previewType: 0,
+                        thumbnail: await (await fetch(`https://i.ibb.co/n7dndJS/a76304762603e9cbc4bffdfa5efe3555.jpg`)).buffer(),
+                        sourceUrl: 'https://instagram.com/_defnilay'
             }
         }
     })

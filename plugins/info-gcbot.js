@@ -4,11 +4,14 @@ let pp = await (await fetch(`https://www6.flamingtext.com/net-fu/proxy_form.cgi?
 let botol = global.wm
 let str = `
 ✧─────[ *Group Official* ]─────✧
-🍀 Group 1 :
-https://chat.whatsapp.com/HAZ6yFgCafUAeDbNH33IrL
+🍀 Group Diskusi :
+https://chat.whatsapp.com/D3TOnkQZFTzEMm4dA1hMiy
 
-🍀 Youtube :
-https://youtu.be/pwLZpdfO8AU
+🍀 Group Premium :
+(Khusus Member Premium)
+
+🍀 Instagram :
+https://instagram.com/_defnilay
 ✧──────────···──────────✧
 `.trim()
 conn.sendButton(m.chat, str, `${botol}`, [['⋮☰ MENU','.menu']],m)

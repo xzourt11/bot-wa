@@ -7,7 +7,7 @@ handler.tags = ['quotes']
 handler.command = /^(heker|hacker|hekel)$/i
 export default handler 
 
-function pickRandom(list) {
+function pickRandom(list) { 
   return list[Math.floor(list.length * Math.random())]
 }
 

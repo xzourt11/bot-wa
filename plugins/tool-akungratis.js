@@ -169,7 +169,7 @@ Kata sandi: coolkidbres
 10. Email: YbaliwythFAV@gmail.com
 Kata sandi: superiorman_
 
-「 ᴹᴿ᭄ King Of Bear ×፝֟͜×  」
+「 𝕃𝕒𝕪𝕫𝔹𝕠𝕥  」
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['akungratis','freeaccount']
 handler.tags = ['tools']

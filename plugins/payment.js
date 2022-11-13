@@ -25,7 +25,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 `.trim(), wm, [['Owner',`/owner`]],m) // Tambah sendiri kalo mau
 conn.sendFile(m.chat, vn, 'haori.mp3', null, m, true, {
 type: 'audioMessage', 
-ptt: true, contextInfo:{ externalAdReply: { title: `💌 Ultah Owner : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`, body: `Follow Tiktok My Bestie`, sourceUrl: 'https://www.tiktok.com/@raraharsita2', thumbnail: await (await fetch('https://i.ibb.co/jfZVKmC/babi2.jpg')).buffer(),}} 
+ptt: true, contextInfo:{ externalAdReply: { title: `💌 Ultah Owner : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`, body: `Follow My Instagram Guys!!`, sourceUrl: 'https://instagram.com/_defnilay', thumbnail: await (await fetch('https://i.ibb.co/tZt0T5r/b8a2c0ef41b08463d93469c4f5501d52.jpg')).buffer(),}} 
      }) 
 }
 handler.command = /^(pay|payment|bayar)$/i

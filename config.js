@@ -27,11 +27,11 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
       
 
 /*============== INFO OWNER ==============*/
-global.sig = 'https://instagram.com/drak_ipul123'
-global.syt = 'https://youtu.be/pwLZpdfO8AU'
-global.sgh = 'https://github.com/SaipulAnuar'
+global.sig = 'https://instagram.com/_defnilay'
+global.syt = 'https://youtu.be/EFURPohqvYY'
+global.sgh = 'https://github.com/Noilesha'
 global.sgc = 'https://chat.whatsapp.com/HAZ6yFgCafUAeDbNH33IrL'
-global.swa = 'wa.me/6288279268363'
+global.swa = 'wa.me/6289670040294'
 global.swb = 'https://'
 global.snh = 'https://nhentai.net/g/365296/' //Make ini aja gausah di ganti.
 
@@ -41,18 +41,18 @@ global.povo = '-'
 global.pgopay = '088279268363'
 global.ppulsa = '-'
 global.ppulsa2 = '-'
-global.psaweria = 'https://saweria.co/raraharsita2'
+global.psaweria = 'https://saweria.co/defnilayz'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '17326319049'
-global.nomorown = '6288279268363'
-global.namebot = 'Yuki Adistyラ'
-global.nameown = 'ᴹᴿ᭄ King Of Bear ×፝֟͜×'
+global.nomorbot = '6281399396389'
+global.nomorown = '6289670040294'
+global.namebot = 'LayzBotラ'
+global.nameown = '𝐝𝐞𝐟𝐧𝐢𝐥𝐚𝐲'
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6288279268363', 'ᴹᴿ᭄ King Of Bear ×፝֟͜×', 'true']
+  ['6289670040294', '𝐝𝐞𝐟𝐧𝐢𝐥𝐚𝐲', 'true']
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -83,7 +83,7 @@ global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
   'https://api.xteam.xyz': 'cristian9407',
   'https://anabotofc.herokuapp.com/': 'AnaBot',
-  'https://api.lolhuman.xyz': 'Xynoz',
+  'https://api.lolhuman.xyz': '8e66d0934cf741bfd2182c16',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://api.zeks.me': 'apivinz',
   'https://pencarikode.xyz': 'pais',
@@ -96,34 +96,34 @@ global.APIKeys = { // APIKey Here
 }
 
 /*============== WATERMARK ==============*/
-global.wm = 'Yuki Adistyラ | By ᴹᴿ᭄ King Of Bear ×፝֟͜×' //Main Watermark
-global.wm2 = 'ᴹᴿ᭄ King Of Bear ×፝֟͜×'
-global.wm3 = 'Yuki Adistyラ | By ᴹᴿ᭄ King Of Bear ×፝֟͜×'
+global.wm = 'LayzBotラ | By 𝐝𝐞𝐟𝐧𝐢𝐥𝐚𝐲' //Main Watermark
+global.wm2 = '𝐝𝐞𝐟𝐧𝐢𝐥𝐚𝐲'
+global.wm3 = 'LayzBotラ | By 𝐝𝐞𝐟𝐧𝐢𝐥𝐚𝐲'
 global.botdate = `⻝ 𝗗𝗮𝘁𝗲: ${week} ${date}\n⻝ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `⻝ 𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
-global.titlebot = `Yuki Adistyラ | ʙʏ ${global.nameown}`
-global.author = 'ᴹᴿ᭄ King Of Bear ×፝֟͜×' 
-global.packname = 'ᴹᴿ᭄ King Of Bear ×፝֟͜×'
+global.titlebot = `LayzBotラ | ʙʏ ${global.nameown}`
+global.author = '𝐝𝐞𝐟𝐧𝐢𝐥𝐚𝐲' 
+global.packname = '𝐝𝐞𝐟𝐧𝐢𝐥𝐚𝐲'
 global.danied = '✘ 𝗘𝗥𝗢𝗥 𝟰𝟬𝟰'
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://telegra.ph/file/1ee2290eedd3330a66df8.jpg' //Main Thumbnail
+global.thumb = 'https://telegra.ph/file/7985de03b07f1932951fe.jpg' //Main Thumbnail
 global.imagebot = 'https://telegra.ph/file/06c4e93a3d3f388b2642d.jpg'
-global.giflogo = 'https://i.ibb.co/jfZVKmC/babi2.jpg'
-global.giflogo2 = 'https://telegra.ph/file/6ab4daac226292a112540.jpg'
-global.thumbs = ['https://telegra.ph/file/7db49c83fd106a60741cd.jpg']
+global.giflogo = 'https://telegra.ph/file/7985de03b07f1932951fe.jpg'
+global.giflogo2 = 'https://telegra.ph/file/7985de03b07f1932951fe.jpg'
+global.thumbs = ['https://telegra.ph/file/7985de03b07f1932951fe.jpg']
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 global.thumbBanned = 'https://telegra.ph/file/77d11b06617f0797a45ac.jpg'
 global.thumbWarn = 'https://telegra.ph/file/77d11b06617f0797a45ac.jpg'
-global.botintro = 'Hallo, Kenalin saya Yuki BOT Saya akan membantu Anda kapan pun & Dimana pun, Saya asisten bot WhatsApp yang di buat oleh *ᴹᴿ᭄ King Of Bear ×፝֟͜×* Saya di rilis pada tanggal\n🗓 ️_16/10/2022_'
-global.intro = 'https://telegra.ph/file/6ab4daac226292a112540.jpg'
+global.botintro = 'Hallo, Kenalin saya Layz BOT Saya akan membantu Anda kapan pun & Dimana pun, Saya asisten bot WhatsApp yang di buat oleh *Defnilay* Saya di rilis pada tanggal\n🗓 ️_02/11/2022_'
+global.intro = 'https://telegra.ph/file/7985de03b07f1932951fe.jpg'
 /*============== GLOBAL BIO ==============*/
-global.nameowner = 'ᴹᴿ᭄ King Of Bear ×፝֟͜×'
-global.umurowner = '22'
-global.asalowner = 'Amerika Serikat, New York'
-global.nomorowner = 'wa.me/6288279268363'
-global.pacarowner = 'Kepo amat sih;v'
+global.nameowner = '𝐝𝐞𝐟𝐧𝐢𝐥𝐚𝐲'
+global.umurowner = '19'
+global.asalowner = 'South Korean, Seoul'
+global.nomorowner = 'wa.me/6289670040294'
+global.pacarowner = 'Make Money Everyday!'
 
 /*============== TEXT ==============*/
 global.wait = '```𝙇𝙤𝙖𝙙𝙞𝙣𝙜...```'
@@ -136,7 +136,7 @@ global.dxlsx = 'application/vnd.openxmlformats-officedocument.spreadsheetml.shee
 global.dpdf = 'application/pdf'
 global.drtf = 'text/rtf'
 
-global.thumbdoc = 'https://telegra.ph/file/6ab4daac226292a112540.jpg'
+global.thumbdoc = 'https://telegra.ph/file/f3d7e1863380872314916.jpg'
 
 /*=========== FAKE SIZE ===========*/
 global.fsizedoc = '99999999999999' // default 10TB
@@ -372,7 +372,7 @@ global.hwaifu = ['https://i.pinimg.com/originals/ed/34/f8/ed34f88af161e6278993e1
 'https://i.pinimg.com/originals/80/4f/1a/804f1a05f9996c96a2d492b4854b7fd5.jpg']
 /*============== STICKER WM ==============*/
 global.stickpack = 'ᴍᴀᴅᴇ ʙʏ'
-global.stickauth = `King Of Bear`
+global.stickauth = `𝐝𝐞𝐟𝐧𝐢𝐥𝐚𝐲`
 
 global.multiplier = 38 // The higher, The harder levelup
 
